@@ -10,3 +10,5 @@ module combo_test(
 always @(*) begin
     z = ((a & b) ^ (c | d) ~ e)
 end
+
+endmodule 
